@@ -1,0 +1,93 @@
+/* styles.css */
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1d;  /* This color is a dark grayscale */
+    color: #f0f0f0;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+}
+.container {
+    display: flex;              /* enables flex layout */
+    flex-direction: column;     /* layout children vertically */
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0a0a0d;
+    color: #c0c0f0;
+    margin-top: auto;  /* pushes the footer to the bottom */
+}
+
+.content {
+    flex-grow: 1;  /* allows the content to grow and take up remaining space */
+    padding: 20px 0;
+    line-height: 1.6;
+}
+nav ul {
+    list-style-type: none; /* This removes the bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* This makes the list items appear on the same line */
+    margin-right: 10px; /* This adds some space to the right of each list item */
+}
+.container {
+    display: flex;              /* enables flex layout */
+    flex-direction: column;     /* layout children vertically */
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0a0a0d;
+    color: #c0c0f0;
+    margin-top: auto;  /* pushes the footer to the bottom */
+}
+
+.content {
+    flex-grow: 1;  /* allows the content to grow and take up remaining space */
+    padding: 20px 0;
+    line-height: 1.6;
+}
+
+/* Make it responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

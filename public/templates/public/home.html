@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'public/styles.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Welcome to My Portfolio Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="intro" class="content">
+        <h2>Introduction</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam feugiat, ex a varius ullamcorper, dui neque feugiat massa,
+            vitae pellentesque metus lorem sit amet dolor.</p>
+    </div>
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Integer eget sem vehicula, tristique lacus id, iaculis dui.</p>
+    </div>
+    <div id="skills" class="content">
+        <h2>Skills</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec feugiat ultricies faucibus. Mauris id eros tempus, auctor massa sit amet.</p>
+    </div>
+    <div id="projects" class="content">
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Quisque condimentum, ligula a tincidunt commodo, augue nibh hendrerit est.</p>
+    </div>
+    <div id="contact" class="content">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nullam fermentum sem nec ultrices laoreet. Praesent consectetur eros vitae ultrices tincidunt.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 by Me.</p>
+    </div>
+</div>
+</body>
+</html>
